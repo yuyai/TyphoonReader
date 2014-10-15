@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2D311C19EEBCD000511E04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2D311B19EEBCD000511E04 /* main.m */; };
+		FA2D311F19EEBCD000511E04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2D311E19EEBCD000511E04 /* AppDelegate.m */; };
+		FA2D312219EEBCD000511E04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2D312119EEBCD000511E04 /* ViewController.m */; };
+		FA2D312519EEBCD000511E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2D312319EEBCD000511E04 /* Main.storyboard */; };
+		FA2D312719EEBCD000511E04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2D312619EEBCD000511E04 /* Images.xcassets */; };
+		FA2D312A19EEBCD000511E04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2D312819EEBCD000511E04 /* LaunchScreen.xib */; };
+		FA2D313619EEBCD000511E04 /* TyphoonReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2D313519EEBCD000511E04 /* TyphoonReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2D313019EEBCD000511E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2D310E19EEBCD000511E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2D311519EEBCD000511E04;
+			remoteInfo = TyphoonReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA2D311619EEBCD000511E04 /* TyphoonReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyphoonReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2D311A19EEBCD000511E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2D311B19EEBCD000511E04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA2D311D19EEBCD000511E04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA2D311E19EEBCD000511E04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA2D312019EEBCD000511E04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA2D312119EEBCD000511E04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA2D312419EEBCD000511E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA2D312619EEBCD000511E04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA2D312919EEBCD000511E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA2D312F19EEBCD000511E04 /* TyphoonReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyphoonReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2D313419EEBCD000511E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2D313519EEBCD000511E04 /* TyphoonReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyphoonReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2D311319EEBCD000511E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2D312C19EEBCD000511E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2D310D19EEBCD000511E04 = {
+			isa = PBXGroup;
+			children = (
+				FA2D311819EEBCD000511E04 /* TyphoonReader */,
+				FA2D313219EEBCD000511E04 /* TyphoonReaderTests */,
+				FA2D311719EEBCD000511E04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2D311719EEBCD000511E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D311619EEBCD000511E04 /* TyphoonReader.app */,
+				FA2D312F19EEBCD000511E04 /* TyphoonReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2D311819EEBCD000511E04 /* TyphoonReader */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D311D19EEBCD000511E04 /* AppDelegate.h */,
+				FA2D311E19EEBCD000511E04 /* AppDelegate.m */,
+				FA2D312019EEBCD000511E04 /* ViewController.h */,
+				FA2D312119EEBCD000511E04 /* ViewController.m */,
+				FA2D312319EEBCD000511E04 /* Main.storyboard */,
+				FA2D312619EEBCD000511E04 /* Images.xcassets */,
+				FA2D312819EEBCD000511E04 /* LaunchScreen.xib */,
+				FA2D311919EEBCD000511E04 /* Supporting Files */,
+			);
+			path = TyphoonReader;
+			sourceTree = "<group>";
+		};
+		FA2D311919EEBCD000511E04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D311A19EEBCD000511E04 /* Info.plist */,
+				FA2D311B19EEBCD000511E04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA2D313219EEBCD000511E04 /* TyphoonReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D313519EEBCD000511E04 /* TyphoonReaderTests.m */,
+				FA2D313319EEBCD000511E04 /* Supporting Files */,
+			);
+			path = TyphoonReaderTests;
+			sourceTree = "<group>";
+		};
+		FA2D313319EEBCD000511E04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D313419EEBCD000511E04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2D311519EEBCD000511E04 /* TyphoonReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2D313919EEBCD000511E04 /* Build configuration list for PBXNativeTarget "TyphoonReader" */;
+			buildPhases = (
+				FA2D311219EEBCD000511E04 /* Sources */,
+				FA2D311319EEBCD000511E04 /* Frameworks */,
+				FA2D311419EEBCD000511E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TyphoonReader;
+			productName = TyphoonReader;
+			productReference = FA2D311619EEBCD000511E04 /* TyphoonReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2D312E19EEBCD000511E04 /* TyphoonReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2D313C19EEBCD000511E04 /* Build configuration list for PBXNativeTarget "TyphoonReaderTests" */;
+			buildPhases = (
+				FA2D312B19EEBCD000511E04 /* Sources */,
+				FA2D312C19EEBCD000511E04 /* Frameworks */,
+				FA2D312D19EEBCD000511E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2D313119EEBCD000511E04 /* PBXTargetDependency */,
+			);
+			name = TyphoonReaderTests;
+			productName = TyphoonReaderTests;
+			productReference = FA2D312F19EEBCD000511E04 /* TyphoonReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2D310E19EEBCD000511E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Yuya IWATA";
+				TargetAttributes = {
+					FA2D311519EEBCD000511E04 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					FA2D312E19EEBCD000511E04 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = FA2D311519EEBCD000511E04;
+					};
+				};
+			};
+			buildConfigurationList = FA2D311119EEBCD000511E04 /* Build configuration list for PBXProject "TyphoonReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2D310D19EEBCD000511E04;
+			productRefGroup = FA2D311719EEBCD000511E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2D311519EEBCD000511E04 /* TyphoonReader */,
+				FA2D312E19EEBCD000511E04 /* TyphoonReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2D311419EEBCD000511E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2D312519EEBCD000511E04 /* Main.storyboard in Resources */,
+				FA2D312A19EEBCD000511E04 /* LaunchScreen.xib in Resources */,
+				FA2D312719EEBCD000511E04 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2D312D19EEBCD000511E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2D311219EEBCD000511E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2D312219EEBCD000511E04 /* ViewController.m in Sources */,
+				FA2D311F19EEBCD000511E04 /* AppDelegate.m in Sources */,
+				FA2D311C19EEBCD000511E04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2D312B19EEBCD000511E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2D313619EEBCD000511E04 /* TyphoonReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2D313119EEBCD000511E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2D311519EEBCD000511E04 /* TyphoonReader */;
+			targetProxy = FA2D313019EEBCD000511E04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA2D312319EEBCD000511E04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2D312419EEBCD000511E04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA2D312819EEBCD000511E04 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2D312919EEBCD000511E04 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA2D313719EEBCD000511E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA2D313819EEBCD000511E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2D313A19EEBCD000511E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TyphoonReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA2D313B19EEBCD000511E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TyphoonReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA2D313D19EEBCD000511E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TyphoonReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TyphoonReader.app/TyphoonReader";
+			};
+			name = Debug;
+		};
+		FA2D313E19EEBCD000511E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TyphoonReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TyphoonReader.app/TyphoonReader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2D311119EEBCD000511E04 /* Build configuration list for PBXProject "TyphoonReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2D313719EEBCD000511E04 /* Debug */,
+				FA2D313819EEBCD000511E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2D313919EEBCD000511E04 /* Build configuration list for PBXNativeTarget "TyphoonReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2D313A19EEBCD000511E04 /* Debug */,
+				FA2D313B19EEBCD000511E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA2D313C19EEBCD000511E04 /* Build configuration list for PBXNativeTarget "TyphoonReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2D313D19EEBCD000511E04 /* Debug */,
+				FA2D313E19EEBCD000511E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2D310E19EEBCD000511E04 /* Project object */;
+}
